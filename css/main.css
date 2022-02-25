@@ -5,7 +5,8 @@
 }
 
 :root {
-    --dark: #070707
+    --dark: #070707;
+    --sizeindex: calc(1vw+1vh);
 }
 @font-face {
     font-family: raleway_m;
@@ -26,4 +27,11 @@ color:#fff;
 font-family: railway_m, sans-serif;
 overflow: hidden;
 line-height: 1.8;
+}
+
+.slider {
+    height: 100%;
+    transform: rotate(15deg);
+    overflow: visible;
+    top: 10vh;
 }
